@@ -1,0 +1,142 @@
+{
+  "generatedLinks": {
+    "tinyurl-001": "https://tinyurl.com/EHC-Verification"
+  },
+  "clickData": [
+    {
+      "timestamp": "2024-12-29T05:45:56.326Z",
+      "linkId": "tinyurl-001",
+      "ip": "172.31.196.17",
+      "device": "Desktop",
+      "browser": "Firefox",
+      "os": "Windows NT",
+      "googleMapsLink": "https://www.google.com/maps?q=-7.2700155,112.7410285"
+    },
+    {
+      "timestamp": "2024-12-29T05:47:40.746Z",
+      "linkId": "tinyurl-001",
+      "ip": "172.31.196.17",
+      "device": "Desktop",
+      "browser": "Firefox",
+      "os": "Windows NT",
+      "googleMapsLink": "https://www.google.com/maps?q=-7.2700155,112.7410285"
+    },
+    {
+      "timestamp": "2024-12-29T06:49:37.349Z",
+      "linkId": "tinyurl-001",
+      "ip": "172.31.196.13",
+      "device": "Desktop",
+      "browser": "Firefox",
+      "os": "Windows NT",
+      "googleMapsLink": "https://www.google.com/maps?q=-7.2700155,112.7410285"
+    },
+    {
+      "timestamp": "2024-12-29T07:08:43.994Z",
+      "linkId": "tinyurl-001",
+      "ip": "172.31.196.13",
+      "device": "Mobile",
+      "browser": "Chrome",
+      "os": "Linux",
+      "googleMapsLink": "https://www.google.com/maps?q=-7.51649,112.4652289"
+    },
+    {
+      "timestamp": "2024-12-29T16:25:11.084Z",
+      "linkId": "tinyurl-001",
+      "ip": "172.31.196.14",
+      "device": "Mobile",
+      "browser": "Chrome",
+      "os": "Linux",
+      "googleMapsLink": "Location not permitted"
+    },
+    {
+      "timestamp": "2024-12-30T01:39:32.328Z",
+      "linkId": "tinyurl-001",
+      "ip": "172.31.196.4",
+      "device": "Desktop",
+      "browser": "Chrome",
+      "os": "Windows NT",
+      "googleMapsLink": "Location not permitted"
+    },
+    {
+      "timestamp": "2024-12-30T01:48:42.536Z",
+      "linkId": "tinyurl-001",
+      "ip": "172.31.196.4",
+      "device": "Desktop",
+      "browser": "Chrome",
+      "os": "Windows NT",
+      "googleMapsLink": "Location not permitted"
+    },
+    {
+      "timestamp": "2024-12-30T02:11:23.612Z",
+      "linkId": "tinyurl-001",
+      "ip": "172.31.196.4",
+      "device": "Desktop",
+      "browser": "Chrome",
+      "os": "Windows NT",
+      "googleMapsLink": "Location not permitted"
+    },
+    {
+      "timestamp": "2024-12-30T02:34:44.468Z",
+      "linkId": "tinyurl-001",
+      "ip": "172.31.196.51",
+      "device": "Desktop",
+      "browser": "Chrome",
+      "os": "Windows NT",
+      "googleMapsLink": "https://www.google.com/maps?q=-7.269987,112.741035"
+    },
+    {
+      "timestamp": "2024-12-30T03:25:46.468Z",
+      "linkId": "tinyurl-001",
+      "ip": "172.31.196.51",
+      "device": "Desktop",
+      "browser": "Firefox",
+      "os": "Windows NT",
+      "googleMapsLink": "https://www.google.com/maps?q=-7.27000164351333,112.74104746346757"
+    },
+    {
+      "timestamp": "2024-12-30T03:53:48.691Z",
+      "linkId": "tinyurl-001",
+      "ip": "172.31.196.51",
+      "device": "Desktop",
+      "browser": "Chrome",
+      "os": "Windows NT",
+      "googleMapsLink": "https://www.google.com/maps?q=-7.2703544,112.741109"
+    },
+    {
+      "timestamp": "2024-12-30T04:06:33.460Z",
+      "linkId": "tinyurl-001",
+      "ip": "172.31.196.51",
+      "device": "Desktop",
+      "browser": "Chrome",
+      "os": "Windows NT",
+      "googleMapsLink": "https://www.google.com/maps?q=-7.2778121,112.7278635"
+    },
+    {
+      "timestamp": "2024-12-30T04:10:27.652Z",
+      "linkId": "tinyurl-001",
+      "ip": "172.31.196.51",
+      "device": "Desktop",
+      "browser": "Chrome",
+      "os": "Windows NT",
+      "googleMapsLink": "https://www.google.com/maps?q=-7.2778121,112.7278635"
+    },
+    {
+      "timestamp": "2024-12-30T04:10:38.660Z",
+      "linkId": "tinyurl-001",
+      "ip": "172.31.196.51",
+      "device": "Desktop",
+      "browser": "Chrome",
+      "os": "Windows NT",
+      "googleMapsLink": "https://www.google.com/maps?q=-7.2778121,112.7278635"
+    },
+    {
+      "timestamp": "2024-12-30T04:13:09.135Z",
+      "linkId": "tinyurl-001",
+      "ip": "172.31.196.51",
+      "device": "Desktop",
+      "browser": "Firefox",
+      "os": "Windows NT",
+      "googleMapsLink": "Location not permitted"
+    }
+  ]
+}
