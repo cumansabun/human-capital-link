@@ -137,6 +137,141 @@
       "browser": "Firefox",
       "os": "Windows NT",
       "googleMapsLink": "Location not permitted"
+    },
+    {
+      "timestamp": "2024-12-30T04:44:24.630Z",
+      "linkId": "tinyurl-001",
+      "ip": "172.31.196.83",
+      "device": "Desktop",
+      "browser": "Firefox",
+      "os": "Windows NT",
+      "googleMapsLink": "https://www.google.com/maps?q=-7.269993565912814,112.7410545968263"
+    },
+    {
+      "timestamp": "2024-12-30T04:50:43.661Z",
+      "linkId": "tinyurl-001",
+      "ip": "172.31.196.83",
+      "device": "Mobile",
+      "browser": "Chrome",
+      "os": "Linux",
+      "googleMapsLink": "Location not permitted"
+    },
+    {
+      "timestamp": "2024-12-30T04:57:39.072Z",
+      "linkId": "tinyurl-001",
+      "ip": "172.31.196.83",
+      "device": "Desktop",
+      "browser": "Chrome",
+      "os": "Linux",
+      "googleMapsLink": "Location not permitted"
+    },
+    {
+      "timestamp": "2024-12-30T04:58:03.027Z",
+      "linkId": "tinyurl-001",
+      "ip": "172.31.196.83",
+      "device": "Desktop",
+      "browser": "Chrome",
+      "os": "Linux",
+      "googleMapsLink": "Location not permitted"
+    },
+    {
+      "timestamp": "2024-12-30T04:59:43.432Z",
+      "linkId": "tinyurl-001",
+      "ip": "172.31.196.83",
+      "device": "Mobile",
+      "browser": "Chrome",
+      "os": "Linux",
+      "googleMapsLink": "https://www.google.com/maps?q=-7.817461446443054,112.02598234623296"
+    },
+    {
+      "timestamp": "2024-12-30T05:29:17.009Z",
+      "linkId": "tinyurl-001",
+      "ip": "172.31.196.83",
+      "device": "Desktop",
+      "browser": "Chrome",
+      "os": "Windows NT",
+      "googleMapsLink": "https://www.google.com/maps?q=-7.2800934,112.7278635"
+    },
+    {
+      "timestamp": "2024-12-30T07:36:49.677Z",
+      "linkId": "tinyurl-001",
+      "ip": "172.31.196.25",
+      "device": "Desktop",
+      "browser": "Firefox",
+      "os": "Windows NT",
+      "googleMapsLink": "Location not permitted"
+    },
+    {
+      "timestamp": "2024-12-30T08:24:29.901Z",
+      "linkId": "tinyurl-001",
+      "ip": "172.31.196.25",
+      "device": "Desktop",
+      "browser": "Firefox",
+      "os": "Windows NT",
+      "googleMapsLink": "https://www.google.com/maps?q=-7.269995763907483,112.74105495934636"
+    },
+    {
+      "timestamp": "2024-12-30T08:36:56.746Z",
+      "linkId": "tinyurl-001",
+      "ip": "172.31.196.25",
+      "device": "Mobile",
+      "browser": "Safari",
+      "os": "iPhone",
+      "googleMapsLink": "Location not permitted"
+    },
+    {
+      "timestamp": "2024-12-30T08:43:17.077Z",
+      "linkId": "tinyurl-001",
+      "ip": "172.31.196.25",
+      "device": "Desktop",
+      "browser": "Chrome",
+      "os": "Windows NT",
+      "googleMapsLink": "Location not permitted"
+    },
+    {
+      "timestamp": "2024-12-30T08:50:39.818Z",
+      "linkId": "tinyurl-001",
+      "ip": "172.31.196.25",
+      "device": "Desktop",
+      "browser": "Chrome",
+      "os": "Windows NT",
+      "googleMapsLink": "Location not permitted"
+    },
+    {
+      "timestamp": "2024-12-30T09:06:58.128Z",
+      "linkId": "tinyurl-001",
+      "ip": "172.31.196.101",
+      "device": "Mobile",
+      "browser": "Chrome",
+      "os": "Linux",
+      "googleMapsLink": "Location not permitted"
+    },
+    {
+      "timestamp": "2024-12-30T10:21:07.194Z",
+      "linkId": "tinyurl-001",
+      "ip": "172.31.196.60",
+      "device": "Mobile",
+      "browser": "Chrome",
+      "os": "Linux",
+      "googleMapsLink": "Location not permitted"
+    },
+    {
+      "timestamp": "2024-12-30T10:21:12.059Z",
+      "linkId": "tinyurl-001",
+      "ip": "172.31.196.60",
+      "device": "Mobile",
+      "browser": "Chrome",
+      "os": "Linux",
+      "googleMapsLink": "Location not permitted"
+    },
+    {
+      "timestamp": "2024-12-30T18:28:21.190Z",
+      "linkId": "tinyurl-001",
+      "ip": "172.31.196.35",
+      "device": "Desktop",
+      "browser": "Firefox",
+      "os": "Windows NT",
+      "googleMapsLink": "https://www.google.com/maps?q=-7.270024425815375,112.7410501670137"
     }
   ]
 }
