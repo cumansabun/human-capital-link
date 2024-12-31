@@ -45,13 +45,19 @@ app.listen(3000, () => {
 });
 
 // Keep-Alive Function
-setInterval(() => {
-  http.get(BASE_URL, (res) => {
-    console.log(`Keep-alive ping sent. Status Code: ${res.statusCode}`);
-  }).on('error', (err) => {
-    console.error('Error sending keep-alive ping:', err.message);
-  });
-}, 300000); // Ping server setiap 5 menit (300000 ms)
+const keepAlive = () => {
+  setInterval(() => {
+    http.get(BASE_URL, (res) => {
+      console.log(`Keep-alive ping sent. Status Code: ${res.statusCode}`);
+    }).on('error', (err) => {
+      console.error('Error sending keep-alive ping:', err.message);
+      // Reconnect if error occurs
+      setTimeout(keepAlive, 10000);
+    });
+  }, 120000); // Ping setiap 2 menit
+};
+
+keepAlive();
 
 bot.start((ctx) => {
     ctx.reply(
