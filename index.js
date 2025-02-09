@@ -3,17 +3,15 @@ const { Telegraf } = require('telegraf');
 const path = require('path');
 const fs = require('fs');
 const ExcelJS = require('exceljs');
-const dotenv = require('dotenv');
-
-dotenv.config(); // Load environment variables
 
 const app = express();
 app.use(express.json());
 
-// Gunakan BOT_TOKEN dari Environment Variables
-const bot = new Telegraf(process.env.BOT_TOKEN);
+// Gunakan BOT_TOKEN langsung di dalam script (tidak disarankan untuk production)
+const BOT_TOKEN = '8072489713:AAF5D8OBkikMefxO5UwV8c9h0Ec8ebp96lU';
+const bot = new Telegraf(BOT_TOKEN);
 
-const BASE_URL = process.env.BASE_URL || 'https://human-capital-five.vercel.app'; // Sesuaikan dengan domain Vercel
+const BASE_URL = 'https://human-capital-five.vercel.app'; // Sesuaikan dengan domain Vercel
 const LINKS_FILE = path.join(__dirname, 'links.json');
 const UPLOADS_DIR = path.join(__dirname, 'uploads');
 
