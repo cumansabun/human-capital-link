@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const express = require('express');
 const { Telegraf } = require('telegraf');
 const path = require('path');
@@ -52,3 +53,58 @@ setWebhook();
 
 // Ekspor app agar bisa dijalankan oleh Vercel
 module.exports = app;
+=======
+const express = require("express");
+const fs = require("fs");
+const path = require("path");
+const app = express();
+const PORT = process.env.PORT || 3000;
+
+// Middleware untuk parsing JSON
+app.use(express.json());
+
+// File penyimpanan link
+const LINKS_FILE = path.join(__dirname, "links.json");
+
+// Load links dari file
+const loadLinks = () => {
+    try {
+        const data = fs.readFileSync(LINKS_FILE, "utf8");
+        return JSON.parse(data);
+    } catch (err) {
+        return [];
+    }
+};
+
+// Simpan links ke file
+const saveLinks = (links) => {
+    fs.writeFileSync(LINKS_FILE, JSON.stringify(links, null, 2));
+};
+
+// Endpoint utama
+app.get("/", (req, res) => {
+    res.send("Telegram Bot Link Tracker Running on Vercel");
+});
+
+// Endpoint untuk mendapatkan daftar link
+app.get("/links", (req, res) => {
+    const links = loadLinks();
+    res.json(links);
+});
+
+// Endpoint untuk menambahkan link baru
+app.post("/links", (req, res) => {
+    const links = loadLinks();
+    const newLink = req.body;
+    links.push(newLink);
+    saveLinks(links);
+    res.json({ message: "Link added successfully", link: newLink });
+});
+
+// Mulai server
+app.listen(PORT, () => {
+    console.log(`Server running on port ${PORT}`);
+});
+
+module.exports = app; // Untuk kompatibilitas dengan Vercel
+>>>>>>> 970afe6 (Update untuk deployment di Vercel)
