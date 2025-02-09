@@ -7,7 +7,7 @@ const path = require('path'); // Untuk mengatur path file
 const app = express();
 const bot = new Telegraf('8072489713:AAF5D8OBkikMefxO5UwV8c9h0Ec8ebp96lU');
 
-const BASE_URL = 'https://b7f70f66-8012-4240-9f60-637548ebd15a-00-4oqg3rhil4w2.sisko.replit.dev';
+const BASE_URL = 'https://human-capital-five.vercel.app';
 const LINKS_FILE = 'links.json';
 const UPLOADS_DIR = path.join(__dirname, 'uploads');
 const http = require('http');
